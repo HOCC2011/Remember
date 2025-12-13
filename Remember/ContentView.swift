@@ -66,6 +66,7 @@ struct ContentView: View {
             .background(Color(.systemGroupedBackground))
             .navigationTitle("Home")
             .navigationBarTitleDisplayMode(.large)
+            .scrollDisabled(false)
         }
     }
     
