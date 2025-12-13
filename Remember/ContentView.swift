@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UIKit
 import ActivityKit
 import WidgetKit
 
@@ -14,6 +15,7 @@ struct ContentView: View {
     @State private var tasks: [String] = []
     @State private var isRunning: Bool = false
     let liveActivityManager = LiveActivityManager()
+
 
     var body: some View {
         NavigationStack {
@@ -33,10 +35,9 @@ struct ContentView: View {
                     .listStyle(.insetGrouped)
                 }
                 
-                VStack(spacing: 16) {
+                VStack(alignment: .leading, spacing: 16) {
                     
                     if (!tasks.isEmpty) {
-                       
                         Divider()
                     }
                     
@@ -66,7 +67,6 @@ struct ContentView: View {
             .background(Color(.systemGroupedBackground))
             .navigationTitle("Home")
             .navigationBarTitleDisplayMode(.large)
-            .scrollDisabled(false)
         }
     }
     
