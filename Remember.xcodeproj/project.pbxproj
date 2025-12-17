@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF4014652EF3416800250F9F /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = CF4014642EF3416800250F9F /* AppIcon.icon */; };
+		CF4014662EF3416800250F9F /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = CF4014642EF3416800250F9F /* AppIcon.icon */; };
 		CFB772512EED4FC300DD5990 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB772502EED4FC300DD5990 /* WidgetKit.framework */; };
 		CFB772532EED4FC300DD5990 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB772522EED4FC300DD5990 /* SwiftUI.framework */; };
 		CFB772602EED4FC400DD5990 /* TaskWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CFB7724E2EED4FC300DD5990 /* TaskWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -37,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CF4014642EF3416800250F9F /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 		CFB7723C2EED4F9100DD5990 /* Remember.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remember.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB7724E2EED4FC300DD5990 /* TaskWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TaskWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB772502EED4FC300DD5990 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
@@ -97,6 +100,7 @@
 		CFB772332EED4F9100DD5990 = {
 			isa = PBXGroup;
 			children = (
+				CF4014642EF3416800250F9F /* AppIcon.icon */,
 				CFB7726D2EED528000DD5990 /* Shared */,
 				CFB7723E2EED4F9100DD5990 /* Remember */,
 				CFB772542EED4FC300DD5990 /* TaskWidget */,
@@ -217,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4014652EF3416800250F9F /* AppIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4014662EF3416800250F9F /* AppIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

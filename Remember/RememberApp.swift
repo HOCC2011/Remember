@@ -11,7 +11,12 @@ import SwiftUI
 struct RememberApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if #available(iOS 26.0, *) {
+                ContentView()
+            } else {
+                ContentViewiOS18()
+            }
+
         }
     }
 }
