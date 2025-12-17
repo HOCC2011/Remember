@@ -1,0 +1,35 @@
+{
+  "fill" : {
+    "solid" : "extended-gray:1.00000,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "image-name" : "Icon-App-iTunes-1.png",
+          "name" : "eyes"
+        },
+        {
+          "blend-mode" : "normal",
+          "glass" : true,
+          "image-name" : "Icon-App-iTunes.png",
+          "name" : "bulb"
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
