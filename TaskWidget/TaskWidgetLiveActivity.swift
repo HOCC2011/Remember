@@ -26,7 +26,7 @@ struct TaskWidgetLiveActivity: Widget {
                 Spacer()
             }
             .padding()
-            .activityBackgroundTint(.white)
+            .activityBackgroundTint(Color.white)
         } dynamicIsland: { context in
             DynamicIsland {
                 // Expanded UI for Dynamic Island

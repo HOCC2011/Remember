@@ -6,11 +6,13 @@
     {
       "layers" : [
         {
+          "glass" : true,
           "image-name" : "Icon-App-iTunes-1.png",
           "name" : "eyes"
         },
         {
           "blend-mode" : "normal",
+          "fill" : "automatic",
           "glass" : true,
           "image-name" : "Icon-App-iTunes.png",
           "name" : "bulb"
