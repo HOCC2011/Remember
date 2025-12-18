@@ -53,6 +53,7 @@ struct ContentViewiOS18: View {
                     TextField("Things you want to remember", text: $inputText)
                         .padding()
                         .background(Color.white)
+                        .opacity(0.6)
                         .clipShape(RoundedRectangle(cornerRadius: 8))
                         .textFieldStyle(.automatic)
                         .submitLabel(.done)
